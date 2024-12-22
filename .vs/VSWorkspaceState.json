@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\.github",
+    "\\.github\\workflows",
+    "\\audioeditor",
+    "\\audioeditor\\bin",
+    "\\audioeditor\\bin\\Release",
+    "\\audioeditor\\bin\\Release\\net8.0-windows"
+  ],
+  "SelectedNode": "\\audioeditor\\MainWindow.xaml",
+  "PreviewInSolutionExplorer": false
+}

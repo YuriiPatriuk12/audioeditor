@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("audioeditor")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dae64d53a189c2d40222713c9737e19ff8840023")]
 [assembly: System.Reflection.AssemblyProductAttribute("audioeditor")]
 [assembly: System.Reflection.AssemblyTitleAttribute("audioeditor")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
