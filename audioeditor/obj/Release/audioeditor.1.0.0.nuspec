@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>audioeditor</id>
+    <version>1.0.0</version>
+    <authors>audioeditor</authors>
+    <description>Package Description</description>
+    <repository type="git" />
+    <dependencies>
+      <group targetFramework="net8.0-windows7.0">
+        <dependency id="NAudio" version="2.2.1" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework="net8.0-windows7.0">
+        <frameworkReference name="Microsoft.WindowsDesktop.App.WPF" />
+      </group>
+    </frameworkReferences>
+  </metadata>
+  <files>
+    <file src="C:\Users\Yurii\Desktop\audioeditor\audioeditor\bin\Release\net8.0-windows\win-x64\audioeditor.runtimeconfig.json" target="lib\net8.0-windows7.0\audioeditor.runtimeconfig.json" />
+    <file src="C:\Users\Yurii\Desktop\audioeditor\audioeditor\bin\Release\net8.0-windows\win-x64\audioeditor.dll" target="lib\net8.0-windows7.0\audioeditor.dll" />
+  </files>
+</package>

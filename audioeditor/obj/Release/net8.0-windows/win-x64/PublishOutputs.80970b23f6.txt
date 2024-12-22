@@ -1,0 +1,2 @@
+C:\Users\Yurii\Desktop\audioeditor\audioeditor\bin\Release\net8.0-windows\win-x64\publish\audioeditor.pdb
+C:\Users\Yurii\Desktop\audioeditor\audioeditor\bin\Release\net8.0-windows\win-x64\publish\audioeditor.exe

@@ -1,0 +1,47 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+    <EnableUnsafeBinaryFormatterSerialization>true</EnableUnsafeBinaryFormatterSerialization>
+	  <PublishSingleFile>true</PublishSingleFile>
+	  <RuntimeIdentifier>win-x64</RuntimeIdentifier>
+	  <SelfContained>true</SelfContained>
+	  <PublishTrimmed>false</PublishTrimmed>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Icons\begin.png" />
+    <None Remove="Icons\begin_b.png" />
+    <None Remove="Icons\pause.png" />
+    <None Remove="Icons\pause_b.png" />
+    <None Remove="Icons\play.png" />
+    <None Remove="Icons\play_b.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="MVVM\Model\" />
+    <Folder Include="MVVM\ViewModel\" />
+    <Folder Include="MVVM\View\" />
+    <Folder Include="Themes\" />
+  </ItemGroup>
+
+  <ItemGroup>
+	  <PackageReference Include="NAudio" Version="2.2.1">
+		  <Private>True</Private>
+	  </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Icons\begin.png" />
+    <Resource Include="Icons\begin_b.png" />
+    <Resource Include="Icons\pause.png" />
+    <Resource Include="Icons\pause_b.png" />
+    <Resource Include="Icons\play.png" />
+    <Resource Include="Icons\play_b.png" />
+  </ItemGroup>
+
+</Project>
